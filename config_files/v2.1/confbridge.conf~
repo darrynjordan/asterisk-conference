@@ -1,0 +1,35 @@
+[general]
+
+; --- ConfBridge User Profile Options ---
+[default_user]
+type=user
+music_on_hold_when_empty=yes
+
+; --- ConfBridge Bridge Profile Options ---
+[default_bridge]
+type=bridge
+
+[NeXtRad]									;confbridge name
+type=bridge
+record_file=/var/spool/asterisk/NeXtRad.wav	;save location
+record_conference=no						;no record from start
+sound_leave=default							;turn leave sound off
+sound_join=default							;turn join sound off
+
+; --- ConfBridge Menu Options ---
+[sample_user_menu]
+type=menu
+*=playback_and_continue(conf-usermenu)
+*1=toggle_mute
+1=toggle_mute
+*4=decrease_listening_volume
+4=decrease_listening_volume
+*6=increase_listening_volume
+6=increase_listening_volume
+*7=decrease_talking_volume
+7=decrease_talking_volume
+*8=leave_conference
+8=leave_conference
+*9=increase_talking_volume
+9=increase_talking_volume
+

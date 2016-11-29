@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1403747058 source:/home/dazzard/Documents/Vacation Work/Boost Testing/v2.0/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1403863541 source:/home/dazzard/Documents/Vacation Work/Boost Testing/v3.0 - Video Streaming/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1405526616 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/VLC/Software Development/v3.0 - Video Streaming/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1434383178 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/VLC/Software Development/v3.5 - Video Capture/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1435044689 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/VLC/Software Development/v4.0 - Node Server Video Capture/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1434984062 source:/media/darryn/Storage/Dropbox/University/Vacation Work/RRSG/VLC/Software Development/v4.0 - Node Server Video Capture/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1435044859 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/VLC/Software Development/v4.0 - VLC Daemon Video Capture/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1435566237 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/Asterisk/Software Development/v2.0 - AMI/v4.0 - VLC Daemon Video Capture/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+
+1435577525 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/Asterisk/Software Development/v2.0 - AMI/main.cpp
+	<boost/asio.hpp>
+	<iostream>
+	<string>
+	<stdio.h>
+	<ctime>
+

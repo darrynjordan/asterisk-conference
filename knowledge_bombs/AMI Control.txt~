@@ -1,0 +1,81 @@
+http://the-asterisk-book.com/1.6/asterisk-manager-api.html
+http://www.asteriskdocs.org/en/2nd_Edition/asterisk-book-html-chunk/asterisk-CHP-10-SECT-1.html#ftn.id4146170
+
+******* How To Telnet as Manager *******
+
+darryn@slowpoke:~$ telnet 127.0.0.1 5038
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Asterisk Call Manager/2.6.0
+Action: login
+ActionID: 1
+Username: admin
+Secret: admin
+
+Response: Success
+
+
+
+******* How To Use AMI To Start Recording *******
+
+slowpoke*CLI> manager show command ConfbridgeStartRecord
+[Syntax]
+Action: ConfbridgeStartRecord
+[ActionID:] <value>
+Conference: <value>
+[RecordFile:] <value>
+
+[Synopsis]
+Start recording a Confbridge conference. 
+
+[Description]
+Start recording a conference. If recording is already present an error will
+be returned. If RecordFile is not provided, the default record file specified
+in the conference's bridge profile will be used, if that is not present either
+a file will automatically be generated in the monitor directory.
+
+[Arguments]
+ActionID
+    ActionID for this transaction. Will be returned.
+
+[See Also]
+Not available
+
+[Privilege]
+system,all
+
+[List Responses]
+None
+
+[Final Response]
+None
+
+--------------------------------------------------
+e.g. 
+--------------------------------------------------
+
+Action: ConfbridgeStartRecord
+ActionID: 2
+Conference: 100
+RecordFile: /var/spool/asterisk/NeXtRad.wav
+
+Action: ConfbridgeStopRecord
+ActionID: 3
+Conference: 100
+RecordFile: /var/spool/asterisk/NeXtRad.wav
+
+
+***** Turn Event Logging OFF *****
+
+Action: Events
+ActionID: 1
+EventMask: off
+
+
+
+
+
+
+
+

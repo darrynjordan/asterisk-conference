@@ -1,0 +1,10 @@
+sudo apt-get install asterisk
+sudo service asterisk status
+sudo asterisk -r
+
+sudo gedit /etc/asterisk/sip.conf
+sudo gedit /etc/asterisk/extensions.conf
+sudo gedit /etc/asterisk/confbridge.conf
+sudo gedit /etc/asterisk/manager.conf
+
+

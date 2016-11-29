@@ -1,0 +1,8 @@
+[default]
+
+exten => 100,1,Answer() 		;if 100 is dialed, server answers
+;ask node opperator for name and announce arrival to others
+exten => 100,2,Set(CONFBRIDGE(user,announce_join_leave)=yes) 
+exten => 100,3,ConfBridge(100,NeXtRad)	;link opperator to confbridge
+
+exten => _XXX,1,Dial(SIP/${EXTEN})	;if other extension called, dial that number (one-on-one calls).

@@ -1,0 +1,12 @@
+[default]
+
+
+exten => 100,1,Answer()
+
+exten => 100,2,Set(CONFBRIDGE(user,announce_join_leave)=yes)
+
+exten => 100,3,ConfBridge(100,NeXtRad)
+
+
+
+exten => _XXX,1,Dial(SIP/${EXTEN})

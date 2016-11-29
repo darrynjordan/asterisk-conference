@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "Moving recorded audio files..."
+
+RECORD_DIR="/var/spool/asterisk/NeXtRAD"
+STORE_DIR="/home/darryn/Recorded"
+
+for i in "$RECORD_DIR"/*.wav
+do
+	echo "${i}"
+	mv "${i}" "$STORE_DIR"
+done
+
+echo "Removing file privileges..."
+
+for i in "$STORE_DIR"/*.wav
+do
+	chmod 777 "${i}" 
+done
+
+
+
+
+
+

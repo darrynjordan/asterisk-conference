@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/connection_manager.cpp
+connection_manager.hpp
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/connection_manager.hpp
+
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/connection_manager.hpp
+includes.hpp
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/includes.hpp
+parameters.hpp
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/parameters.hpp
+
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/includes.hpp
+boost/asio.hpp
+-
+iostream
+-
+string
+-
+stdio.h
+-
+ctime
+-
+
+/home/darryn/Dropbox/Workspace/Asterisk/asterisk_recorder/source/parameters.hpp
+

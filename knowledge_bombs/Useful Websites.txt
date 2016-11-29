@@ -1,0 +1,5 @@
+https://wiki.asterisk.org/wiki/display/AST/ConfBridge
+
+https://wiki.asterisk.org/wiki/display/AST/Connecting+to+the+Asterisk+CLI
+
+http://sflphone-doc-security.readthedocs.org/en/latest/02_asterisksflphone/installingasterisk.html

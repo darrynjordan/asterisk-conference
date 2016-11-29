@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {0.1}Introduction}{2}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Software and Hardware Used}{2}{subsection.0.1.1}
+\contentsline {section}{\numberline {0.2}Preparation and Set-up}{3}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Overview of system}{3}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}Asterisk Server}{3}{subsection.0.2.2}
+\contentsline {subsection}{\numberline {0.2.3}Important CLI Commands}{3}{subsection.0.2.3}
+\contentsline {subsection}{\numberline {0.2.4}Configuration File Descriptions}{4}{subsection.0.2.4}
+\contentsline {subsubsection}{sip.conf}{4}{section*.2}
+\contentsline {subsubsection}{extensions.conf}{4}{section*.3}
+\contentsline {subsubsection}{manager.conf}{4}{section*.4}
+\contentsline {subsubsection}{confbridge.conf}{4}{section*.5}
+\contentsline {subsection}{\numberline {0.2.5}SIP Clients}{6}{subsection.0.2.5}
+\contentsline {subsubsection}{SFLphone 1.4.1}{6}{section*.6}
+\contentsline {subsubsection}{Linphone 3.6.1}{7}{section*.7}
+\contentsline {section}{\numberline {0.3}C++ Confbridge Recorder}{7}{section.0.3}

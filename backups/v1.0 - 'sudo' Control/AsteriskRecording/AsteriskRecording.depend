@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1405689819 source:/home/dazzard/Documents/Vacation Work/Asterisk/Software Development/v1.0/AsteriskRecording/main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+
+1435157103 source:/home/darryn/Dropbox/University/Vacation Work/RRSG/Asterisk/Software Development/v1.0/AsteriskRecording/main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+

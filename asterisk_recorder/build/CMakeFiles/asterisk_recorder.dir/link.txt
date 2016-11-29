@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/asterisk_recorder.dir/main.cpp.o CMakeFiles/asterisk_recorder.dir/source/connection_manager.cpp.o  -o asterisk_recorder -rdynamic -lboost_regex -lboost_system -lboost_serialization -lboost_thread -lboost_filesystem 
